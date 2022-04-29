@@ -1,0 +1,18 @@
+$color-oscuro: #6E2D0F;
+$color-claro: #F3EFEE;
+$color-claro-transparente: #F3EFEEe3;
+$color-degradado:linear-gradient(#F3EFEE,#dbcbbd);
+$color-body:#FFFFFF; 
+$color-negro:#000000;
+$color-negro-transparente:#0c0c0cc4;
+$color-input:#d6d6d6;
+$fuente-principal:'Open Sans', sans-serif;
+//mixin flex
+@mixin flex {
+    text-align: center;
+}
+
+@mixin paddingflex {
+    text-align: center;
+    padding: 10px;
+}
